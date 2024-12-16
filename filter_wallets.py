@@ -6,7 +6,7 @@ import time
 SOLANA_RPC_URL = "https://solana-mainnet.g.alchemy.com/v2/你自己的api key"
 
 # 输入 CSV 文件路径
-file_path = r"F:\币圈小程序\2024-12-14-01.csv"
+file_path = r"你自己的本地文件夹\2024-12-14-01.csv"
 wallet_data = pd.read_csv(file_path)  # 加载文件，第一行为列名
 
 def get_signatures(wallet_address, limit=100, retries=5):
